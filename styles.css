@@ -1,0 +1,57 @@
+
+body{
+  background:#0f172a;
+  color:#f8fafc;
+}
+
+.panel{
+  background:#1e293b;
+  padding:12px;
+  border-radius:12px;
+}
+
+button{
+  margin:2px;
+}
+
+ /* REPRODUCTOR PERSONALIZADO */
+.controls {
+  background: #111;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  background: #2563eb;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+header h2 {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Playlist */
+#playlist img {
+  transition: transform 0.2s;
+}
+#playlist img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(255,255,255,0.3);
+}
